@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+
+*{
+    font-family: ABeeZee;
+    font-weight: normal;
+}
+
+
+body {
+    background: #36363F;
+    background-image: url("foto/Ellipse\ 3.svg");
+    background-repeat: no-repeat;
+}
+
+.set_image {
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    height: 309px;
+    width: 434px;
+    position: static;
+    z-index: -1;
+    user-select: none;
+    pointer-events: none;
+}
+
+.set_form {
+    color: white;
+    background-color: #2B2E32;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    width: 600px;
+    /*margin-top: 200px;*/
+    padding: 10px;
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 25px;
+    border: solid 1px #2B2E32 ;
+}
+
+.h1 {
+    margin-left: 30%;
+}
+
+
+.floky_image {
+    margin-top: 15px; 
+    width: 120px;
+    height: 120px;
+}
+
+.main_info > div > h2, .main_info > div > h4 {
+    margin: 0;
+}
+
+.main_info > div > h4 {
+    color: #ffffff99;
+}
+
+.main_info {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pers, .subs {
+    font-size: 24px;
+    width: 239px;
+    height: 40px;
+    color: white;
+    background-color: #484C54;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 10px;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.pers:hover,
+.subs:hover {
+    background-color: #585D66;
+}
